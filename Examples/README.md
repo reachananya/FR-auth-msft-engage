@@ -13,7 +13,6 @@ Mount Google drive in the same colab notebook by navigating to folder icon on th
 
 <h2>Step 3<h2/>
 Running of this file would take 15 minutes since the model is being trained. The final output should look something like this - 
-<div style="padding:57.36% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/714982275?h=238ddcc703&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="New Recording - 5/29/2022, 11:07:35 PM"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 <h2>Step 4<h2/>
@@ -28,5 +27,6 @@ Next open <a href="https://colab.research.google.com/drive/1h6yiFXKxQAJOV6XHiVzm
 
   
 <h2>Pipeline of the face recognition<h2/>
-    Examples/IMG_F8500172F341-1.jpeg
+  <img src="Examples/IMG_F8500172F341-1.jpeg">
+    Examples/IMG_F8500172F341-1.jpeg 
  ![alt text](https://github.com/reachananya/FR-auth-msft-engage/blob/main/Examples/IMG_F8500172F341-1.jpeg?raw=true)
