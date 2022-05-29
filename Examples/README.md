@@ -24,3 +24,8 @@ Next open <a href="https://colab.research.google.com/drive/1h6yiFXKxQAJOV6XHiVzm
   
  
 <h2>Step 7<h2/>
+
+  
+<h2>Pipeline of the face recognition<h2/>
+    Examples/IMG_F8500172F341-1.jpeg
+ ![alt text](https://github.com/reachananya/FR-auth-msft-engage/blob/main/Examples/IMG_F8500172F341-1.jpeg?raw=true)
