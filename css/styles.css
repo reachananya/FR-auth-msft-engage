@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@1,100&display=swap');
 
 body {
+  background-color: #000000;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -322,7 +323,7 @@ form {
 
 form h3 {
 	color: #0088A9;
-	font-weight:: 800;
+	font-weight: 800;
 	margin-bottoom: 20px;
 }
 
@@ -388,7 +389,7 @@ form button{
 
   float: left;
   display: block;
-  color: black);
+  color: black;
   text-align: center;
   padding: 1px;
   text-decoration: none;
@@ -418,4 +419,7 @@ form button{
 .no-deco a {
   text-decoration: none;
 }
-	
+
+.copyright{
+  margin-bottom: 0;
+}
