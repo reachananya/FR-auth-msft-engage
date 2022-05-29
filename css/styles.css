@@ -69,6 +69,10 @@ li, a, button {
   cursor: pointer;
 }
 
+.no_deco {
+	color: #fff;
+}
+
 .nav__links {
  list-style: none;
 }
