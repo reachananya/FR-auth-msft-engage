@@ -58,6 +58,7 @@ h6 {
 
 
 
+
 li, a, button {
   font-family: "Montserrat", san-sarif;
   font-weight: 503; 
@@ -84,7 +85,7 @@ li, a, button {
 }
 
 .nav__links li a {
- transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav__links li a:hover {
