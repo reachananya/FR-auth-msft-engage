@@ -1,3 +1,4 @@
 # face_rec
-An eye-blink detection-based face liveness detection algorithm to thwart photo attacks.
-Read more on: https://towardsdatascience.com/real-time-face-liveness-detection-with-python-keras-and-opencv-c35dc70dafd3
+
+Kindly check the README.md file of the example folder to understand the execution of python script
+
