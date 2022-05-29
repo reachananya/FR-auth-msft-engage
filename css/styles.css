@@ -411,7 +411,7 @@ form button{
   width: 100%;
 }
 
-.no-deco {
+.no-deco a {
   text-decoration: none;
 }
 	
