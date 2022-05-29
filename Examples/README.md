@@ -18,7 +18,7 @@ Mount Google drive in the same colab notebook by navigating to folder icon on th
 <h2>Step 4<h2/>
 Running of this whole Py-script-FR file would take 15 minutes since the model is being trained. The final output should look something like this - 
 <br />
-<img src="final-display.gif"> 
+<img src="final-difference.png"> 
 
   
  
