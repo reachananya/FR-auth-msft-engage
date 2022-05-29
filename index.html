@@ -1,1 +1,252 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <title>Mirror - face recognition authentication service</title>
+
+  <!--    Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu:400,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <!--    Bootstrap css files-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--    Custom css files-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--    Font Awesome-->
+  <script defer src="https://kit.fontawesome.com/e87d687bba.js"></script>
+  <!--    Bootstrap js files-->
+  <script src="https://kit.fontawesome.com/8f4612223a.js" crossorigin="anonymous"></script>
+  <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+      <!-- nav bar -->
+      <nav class="navbar">
+            
+            <a class="logo" href="/"><img src="images/smalllogo.gif" alt="logo" style="width: 200px;"></a>
+            <h3>Mirror</h3>
+            <nav>
+              <a href="#main">Overview</a><a href="#showcase">Showcase</a><a href="#biasing">Solutions</a>
+            </nav>
+            <a class="cta" href="#"><button>Deploy Mirror in seconds <i class="fa-solid fa-arrow-right"></i></button></a>
+      </nav>
+      
+  <section class="colored-section" id="title">
+   <div class="container-fluid">
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Instant face <br> recognition <br> authentication <br> during web logins</h1>
+          <!-- Button - onClick="document.getElementById('wrap').scrollIntoView();" --> 
+          <button class="btn btn-outline-light btn-lg download-button" type="button" onclick="smoothScroll(document.getElementById('contact'))"><i class="fa-solid fa-rocket"></i> Schedule a demo</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/finalmainimg.gif">
+        </div>
+      
+       <div class="idea" id="main">
+         <ul>
+           <li>
+             <pre>
+             
+             
+             <h3>Behind the idea.</h3>
+             </pre>
+             
+           </li>
+           <li>
+             <p class="description">Mirror aim's to cater for businesses that want to provide an excellent balance between security and convenience when it comes to protecting their users’ accounts and data. Implementing an effective Multi-Factor authentication system helps businesses maintain compliance with data protection regulations and reduce legal liability if a user’s account is compromised. These services are primarily designed for the corporates, retail and organizations.</p>
+           </li> 
+         </ul>
+         <img src="images/22.png">
+        </div>
+        
+        <div class="idea-2">
+         <img src="images/behind-the-idea-2.png">
+         <ul>
+           <li>
+             <h3>Why use mirror?</h3>
+           </li>
+           <li>
+             <p class="description">Organisations can use Mirror to verify customers during their respective web logins in order to gain secure access to elements of their websites, without the need for OTP to be held directly.</p>
+           </li>
+         </ul>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-4">
+          
+          <i class="fa-solid fa-clock fa-4x"></i> 
+          <h3 class="feature-title">Efficient</h3>
+          <p>Face recognition authentication saves time and speeds up the process as opposed to the time taken in case of OTP authentication. </p>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="fa-solid fa-face-smile fa-4x"></i> 
+          <h3 class="feature-title">Seamless</h3>
+          <p>Consumer experience is quick, easy and reassuring</p>
+        </div>
+
+        <div class="col-lg-4">
+          <i class="fa-solid fa-lock fa-4x"></i> 
+          <h3 class="feature-title">Secure</h3>
+          <p>Our AI models are engineered with Liveness technology and is optimised such that it is racial bias free!</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Biasings -->
+
+  <section class="colored-section" id="biasing">
+
+    <div id="biasing-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <pre>
+          
+          
+          
+          
+          <h3 class="biasing-heading">Liveness Detection</h3>
+          
+          </pre>
+          <p class="biasing-paragraph"> Mirror is enabled with Liveness Detection which has in-turn improved the security and anti-fraud measures in facial recognition based solutions. The passive liveness check, is the most sophisticated anti-spoofing technology.</p>
+          <img class="biasing-image" src="images/biaisng-image-1.png">
+          
+
+        </div>
+        <div class="carousel-item container-fluid">
+          <pre>
+
+
+
+          <h3 class="biasing-heading">Racial and Religious Biasing</h3>
+          
+          </pre>
+          <p class="biasing-paragraph">WRITE SOMETHING.</p>
+          <img class="biasing-image" src="images/biasing-image-2.jpg">
+          
+
+        </div>
+        
+        <div class="carousel-item container-fluid">
+          <pre>
+
+
+
+          <h3 class="biasing-heading">Statistics in favour of Face Recognition authentication</h3>
+          
+          </pre>
+          <p class="biasing-paragraph">64% of the total population surveyed see biometrics as an easier solution to identity authentication and 34% being receptive to the idea so long as it can be demonstrated to be secure. Only 10% of the respondents had a firm preference for passwords.</p>
+          <img class="biasing-image" src="images/biasing-image-2.jpg">
+          
+
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#biasing-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#biasing-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Showcase -->
+
+  <section class="white-section" id="showcase">
+
+    <h2 class="section-heading">Showcase - Mirror in action! </h2>
+    <p class="section-subheading">Watch the below video demo to understand the working of Mirror</p>
+    <iframe width="1000" height="600" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+  </section>
+
+
+ <!-- Contact us-->
+
+  <div class="wrap" id="contact">
+    <pre>
+    
+    
+    <h3 class="big-heading">Get in touch by scheduling a demo with us!</h3>
+    </pre>
+    <section class="contact-us">
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <input type="text" id="name" placeholder="Your Name" required>
+         <input type="email" id="email" placeholder="Email id" required>
+         <input type="text" id="Phone" placeholder="Phone number" required>
+         <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+         <button type="submit">Submit</button> 
+      </form>
+     </section>
+     <img class="contact-us-img" src="images/acquire-users.png">
+  </div>
+ 
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <a href="mailto:reach.ananya.singhal@gmail.com"><i class="fa">&#xf0e0;</i></a>
+      <a href="https://github.com/reachananya"><i class="fa">&#xf09b;</i></a>
+      <a href="https://www.linkedin.com/in/ananya-singhal-0608/"><i class='fab'>&#xf0e1;</i></a>
+      <a href="https://medium.com/@reach.ananya.singhal"><i class="fa">&#xf3c7;</i></a> 
+
+      <p class="copyright">© Copyright 2022 Ananya Singhal</p>
+    </div>
+  </footer>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail(){
+      Email.send({
+          SecureTokken: "d138a653-a609-4331-a695-17ec26e56bf0",
+          Host : "smtp.gmail.com",
+          Username : "reach.ananya.singhal@gmail.com",
+          To : 'ananyasinghal.delhi@gmail.com',
+          From : document.getElementById("email").value,
+          Subject : "Enquiry on Face authentication service",
+          Body : "Name: " + document.getElementById("name").value
+             + "<br> Email: " + document.getElementById("email").value
+             + "<br> Phone number: " + document.getElementById("Phone").value
+             + "<br> Message: " + document.getElementById("message").value
+       }).then(
+       message => alert("Thank you for reaching out to us! We will get back to you shortly")
+       );
+     }
+   </script>
+</body>
+   <script src="js/app.js"></script>
+</html>
