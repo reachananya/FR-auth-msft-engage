@@ -26,7 +26,9 @@ Next open <a href="https://colab.research.google.com/drive/1h6yiFXKxQAJOV6XHiVzm
   
  
 <h2>Step 7<h2/>
-  You shoul be able to see your image in the <a href="https://drive.google.com/drive/folders/1qgveysS8WqxVB-Gv57q1F0XEvkHWNImp?usp=sharing">Final output</a> folder
+  You should be able to see your image in the <a href="https://drive.google.com/drive/folders/1qgveysS8WqxVB-Gv57q1F0XEvkHWNImp?usp=sharing">Final output</a> folder
+  <img src="p1.jpeg"> 
+
   
 
   
