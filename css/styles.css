@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;503&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:ital,wght@1,100&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/*Sections*/
+.colored-section {
+  background-color: #000000;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #282828;
+}
+
+/*Heading styles font-family: 'Montserrat-Bold', sans-serif;*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+}
+
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Navigation Bar*/
+.navbar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+  background-color: #000000;
+  display: flex; 
+  justify-content: space-between;
+  align-items: centre;
+}
+
+
+
+li, a, button {
+  font-family: "Montserrat", san-sarif;
+  font-weight: 503; 
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+ list-style: none;
+}
+
+.nav__links li {
+ display: inline-block;
+ padding: 0px 20px;
+}
+
+.nav__links li a {
+ transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+ color: #0088a9;
+}
+
+button {
+ padding: 9px 25px;
+ background-color: rgba(0, 136, 169, 1);
+ border: none;
+ border-radius: 50px;
+ cursor: pointer;
+ transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.6);
+}
+
+
+/*Title section*/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/*Download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title image*/
+.title-image {
+  position: absolute;
+  right: -10%;
+  /*transform: rotate(25deg);*/
+  width: 100%;
+}
+
+hr {
+  border:none;
+  border-top: 5px dashed rgba(0, 136, 169, 1);
+  height:3.5px;
+  width:30%;
+}
+
+/*idea*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100&display=swap');
+
+.idea {
+  display: flex;
+  /*padding: 10px;*/
+  width:max-content;
+  margin: auto;
+}
+
+.description {
+  font-family: 'IBM Plex Serif', serif;
+  color: white;
+  text-align: center;
+  margin: 20px 2px;
+}
+
+ul {
+  list-style: none;
+  flex-grow: 1;
+  text-align: center; 
+  width: 300px;
+}
+
+.idea h3 {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 2.0rem;
+  font-weight: 200;	 
+  line-height: 2.8;
+  color: #fff;
+}
+
+.idea img {
+  margin: auto 1em;
+  width: 350px;	
+}
+
+.idea-2 {
+  display: flex;
+  padding: 10px;
+  width:max-content;
+  margin: auto;
+}
+
+.description {
+  color: white;
+  font-family: 'Roboto Flex', sans-serif;
+  text-align: center;
+  margin: 20px 2px;
+}
+
+ul {
+  list-style: none;
+  flex-grow: 1;
+  text-align: center; 
+  width: 300px;
+}
+
+.idea-2 h3 {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 2.0rem;
+  font-weight: 200;	 
+  line-height: 2.8;
+  color: #fff;
+}
+
+.idea-2 img {
+  margin: auto 1em;
+  width: 350px;	
+}
+
+
+
+/*Features section*/
+#features {
+  position: relative;
+}
+
+#features .col-lg-4 {
+  padding: 5%;
+}
+
+#features i {
+  color: #63A18F;
+  margin-bottom: 1rem;
+}
+
+#features i:hover {
+  color: #0088A9;
+}
+
+.feature-title {
+  color: #fff;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5rem;
+}
+
+/*Biasing section*/
+#biasing {
+  background-color: #000000;
+}
+
+.biasing-heading {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.biasing-paragraph {
+  font-family: 'IBM Plex Serif', serif;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.biasing-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/*Press section*/
+#press {
+  background-color: #000000;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 30px;
+  width: 15%;
+}
+
+/*Showcase section*/
+#showcase {
+  padding: 100px;
+}
+
+.section-heading{
+	color: #fff;
+	font-size: 35px;
+}
+
+
+.section-subheading {
+  padding: 1% 2% 3%;
+}
+
+.card {
+  margin-top: 1%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Contact Us*/
+.wrap{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; 
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  color: #fff;
+  display: inline-block;
+}
+
+.big-heading{
+	font-size: 35px;
+	color: #fff
+}
+
+.contact-us {
+	width: 100%;
+	height: 100vh;
+	background: #000000;
+	display: flex;
+	aligh-items: centre;
+	justify-content: centre;
+}
+
+form {
+	background: #000000;
+	display: flex;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 90%;
+	max-width: 600px;
+}
+
+form h3 {
+	color: #0088A9;
+	font-weight:: 800;
+	margin-bottoom: 20px;
+}
+
+form input, form textarea {
+	vorder: 0px;
+	margin: 10px 0;
+	padding: 20px;
+	outline: none;
+	background: #f5f5f5;
+	font-size: 16px;
+	border-radius: 20px;
+}
+
+form button{
+	padding: 15px;
+	background: #0088A9;
+	color: #fff;
+	border: 0px;
+	outline: none;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 30px;
+	margin: 20px auto 0;
+	width: 150px;	
+}
+
+.contact-us, .contact-us-img{
+    display:inline-block;
+    width:50%;
+    vertical-align:middle;
+}
+
+.contact-us-img {
+  display: inline-block;
+  position: flex;
+  right: -50%;
+  width: 40%;
+}
+
+/*Footer section*/
+
+#footer i {
+  padding: 0.8%;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  padding-top: 5px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.navbar a {
+
+  float: left;
+  display: block;
+  color: black);
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+  transition: all 0.5s;
+  margin: 10px 8px;
+  position: relative;
+}
+
+.navbar a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: var(--home-color);
+  height: 2px;
+  transition: all 0.5s;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
