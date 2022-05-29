@@ -410,3 +410,8 @@ form button{
 .navbar a:hover::after {
   width: 100%;
 }
+
+#no-deco {
+  text-decoration: none;
+}
+	
