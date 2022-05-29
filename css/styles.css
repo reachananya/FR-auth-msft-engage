@@ -308,7 +308,7 @@ ul {
 	height: 100vh;
 	background: #000000;
 	display: flex;
-	aligh-items: centre;
+	align-items: centre;
 	justify-content: centre;
 }
 
@@ -324,11 +324,11 @@ form {
 form h3 {
 	color: #0088A9;
 	font-weight: 800;
-	margin-bottoom: 20px;
+	margin-bottom: 20px;
 }
 
 form input, form textarea {
-	vorder: 0px;
+	border: 0px;
 	margin: 10px 0;
 	padding: 20px;
 	outline: none;
