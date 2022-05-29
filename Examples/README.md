@@ -1,5 +1,6 @@
-# Example 
+Note - The reason why the .ipynb file is not able to take live camera feed is because google colab is on browser which doesn't have access to the webcam. Even though there are a few code snippets available to access the webcam using google colab, my code doesn't support the same since I have to depict bounding boxes on the matching faces with their respective names. Hence for the .ipynb file I'm feeling three images separetely to give 'blinking' effect for Liveness detection
 
+# Example 
 
 <h2>Step 1<h2/>
 Click <a href="https://drive.google.com/drive/folders/1fYOfs87N4b5hA8MiQce1VtAPR1kqPFLi?usp=sharing">here</a>
